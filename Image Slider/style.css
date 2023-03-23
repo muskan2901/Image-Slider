@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(144deg, #170425, #bfbcd4 50%, #353335);
+}
+main {
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 0px 0px 3px gray;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 1s;
+}
+
+.nav {
+  text-align: center;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.nav button {
+  background-image: linear-gradient(144deg, #170425, #460a60 50%, #280428);
+  box-shadow: rgba(94, 75, 116, 0.2) 0 15px 30px -5px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 15px 32px;
+  margin-right: 300px;
+  margin-left: 290px;
+}
